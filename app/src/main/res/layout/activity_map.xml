@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="#F8F9FA"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -20,40 +20,13 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="2">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:text="ᏰᏂᏬᎷᎥ"
-                    android:textColor="#ffffff"
-                    android:textSize="30sp" />
-
-                <com.airbnb.lottie.LottieAnimationView
-                    android:id="@+id/animationView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    app:lottie_autoPlay="true"
-                    app:lottie_loop="true"
-                    app:lottie_rawRes="@raw/tapemeasurestatic"
-
-                    />
-
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
-                android:background="@drawable/top_curved"
+
                 android:orientation="vertical"
                 android:padding="20dp">
 
