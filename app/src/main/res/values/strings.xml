@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Bhumi</string>
+    <string name="land_measurement_title">জমির সীমানার পরিমাপ (ফুট)</string>
+    <string name="land_measurement_subtitle">বিপরীত দুই দিকের মাপ নির্ভুলভাবে লিখুন</string>
+    <string name="length_label">দৈর্ঘ্য (ফুট)</string>
+    <string name="width_label">প্রস্থ (ফুট)</string>
+    <string name="length_a_hint">দৈর্ঘ্য - ক</string>
+    <string name="length_b_hint">দৈর্ঘ্য - খ</string>
+    <string name="width_a_hint">প্রস্থ - ক</string>
+    <string name="width_b_hint">প্রস্থ - খ</string>
+    <string name="calculate">হিসাব করুন</string>
+    <string name="clear_all">সব মুছুন</string>
+    <string name="side_one">প্রথম পাশ</string>
+    <string name="side_two">বিপরীত পাশ</string>
+    <string name="toolbar_title">ভূমির পরিমাপ</string>
 </resources>
